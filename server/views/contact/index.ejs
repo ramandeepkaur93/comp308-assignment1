@@ -1,0 +1,65 @@
+
+<% include ../partials/header.ejs %>
+
+    <div class="container">
+      <div class="jumbotron">
+      <h1 class="display-4">My Contact Details</h1>
+    <section class="container main-container">
+    <br/>
+    <br/>
+    <div class="row">
+        <!-- contact information -->
+        <div class="col-lg-5">
+            <div class="">
+                <h3>Contact Details</h3>
+                <hr>
+                <p>Mail : ramandeepkaur9082@gmail.com</p>
+                <p>Mobile : 4379951551</p>
+                <p>LinkedIn : https://www.linkedin.com/in/ramandeep-kaur-47b034129/</p>
+                <p>Address</p>
+                <p>8 Coronation drive, Scarborough, ON M1E2H1</p>
+            </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="col-lg-7">
+            <form method="POST">
+                <h3 class="title">Get in touch</h3>
+                <hr>
+                <div class="row">
+                    <div class="row col-lg-12" style="margin-top:10px;">
+                        <p class="col-lg-6">First Name</p>
+                        <input name="fname"  class="col-lg-6 inputBox" type="text"/>
+                    </div>
+                    <div class="row col-lg-12" style="margin-top:10px;">
+                        <p class="col-lg-6">Last Name</p>
+                        <input name="lname" class="col-lg-6 inputBox" type="text"/>
+                    </div>
+                    <div class="row col-lg-12" style="margin-top:10px;">
+                        <p class="col-lg-6">Email</p>
+                        <input name="email" class="col-lg-6 inputBox" type="text"/>
+                    </div>
+                    <div class="row col-lg-12" style="margin-top:10px;">
+                        <p class="col-lg-6">Mobile</p>
+                        <input name="mobile" class="col-lg-6 inputBox" type="text"/>
+                    </div>
+                    <div class="row col-lg-12" style="margin-top:10px;">
+                        <p class="col-lg-6">Message</p>
+                        <textarea name="message" class="col-lg-6" type="text"></textarea>
+                    </div>
+                    <div class="row col-lg-12 justify-content-center" style="margin-top:10px;">
+                        <a class="btn" href="/" type="submit">Submit</a>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+      </div>
+    </div>
+
+<% include ../partials/footer.ejs %>
+

@@ -15,8 +15,5 @@ router.get('/products', indexController.displayProductsPage);
 /* GET services page. */
 router.get('/services', indexController.displayServicesPage);
 
-/* GET contact page. */
-router.get('/contact', indexController.displayContactPage);
-
 
 module.exports = router;
