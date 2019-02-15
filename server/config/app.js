@@ -1,3 +1,8 @@
+// config/app.js
+// Ramandeep Kaur
+// 300973558
+// Fep 15, 2019
+
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
